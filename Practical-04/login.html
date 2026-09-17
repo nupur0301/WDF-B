@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub | Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="notificationBanner" class="notification-banner">
+    <span>📢 Login using your StudentHub Enrollment Number and Password.</span>
+    <button id="closeNotification">&times;</button>
+</div>
+    <header>
+        <div class="container">
+            <img src="college_logo.jpg" alt="College Logo" class="logo">
+            <h1>StudentHub Portal</h1>
+            <h3>Login to Continue</h3>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Student Login</h2>
+            <form id="loginForm" class="login-form">
+                <label for="enrollment">Enrollment Number</label>
+                <input type="text" id="enrollment" placeholder="Enter Username">
+                <label for="password">Password</label>
+                <input type="password"
+                       id="password"
+                       name="password"
+                       placeholder="Enter Password"
+                       required>
+                <div class="button-group">
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+            <a href="#" class="register-link">
+                New User? Register Here
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p><strong>StudentHub Portal</strong></p>
+            <p>Charotar University of Science and Technology</p>
+            <p>Email : info@charusat.edu</p>
+            <p>Phone : +91 9876543210</p>
+            <p>Address : Changa, Anand, Gujarat</p>
+            <p>&copy; 2026 StudentHub Portal. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="theme.js"></script>
+    <script src="notification.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
