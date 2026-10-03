@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',Arial,sans-serif;
+}
+body{
+    background:#EAF6FF;
+    color:#333;
+}
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    text-align:center;
+}
+header{
+    background:#003366;
+    color:white;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+.logo{
+    width:50px;
+    height:50px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+header h1{
+    font-size:34px;
+    margin:8px 0;
+}
+header h3{
+    font-size:20px;
+    font-weight:normal;
+}
+nav{
+    background:#99CCFF;
+    padding:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+nav a{
+    text-decoration:none;
+    color:#003366;
+    margin:0 18px;
+    font-weight:bold;
+    transition:.3s;
+}
+nav a:hover,
+nav a.active{
+    color:#0059B3;
+}
+main{
+    width:90%;
+    max-width:1100px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+.login-form{
+    width:400px;
+    margin:30px auto;
+    background:#F8FBFF;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+    text-align:left;
+}
+.login-form label{
+    display:block;
+    margin-bottom:8px;
+    color:#003366;
+    font-weight:bold;
+}
+.login-form input[type="text"],
+.login-form input[type="password"]{
+    width:100%;
+    padding:12px;
+    margin-bottom:18px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+.login-form input:focus{
+    outline:none;
+    border-color:#2563EB;
+}
+.button-group{
+    display:flex;
+    gap:10px;
+}
+.button-group input{
+    flex:1;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:.3s;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover{
+    background:#0059B3;
+}
+.register-link{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    color:#003366;
+    font-weight:bold;
+}
+.register-link:hover{
+    text-decoration:underline;
+}
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+footer p{
+    margin:5px;
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "date": "05 August 2026",
+        "title": "Cyber Security Workshop",
+        "venue": "Seminar Hall",
+        "category": "Workshop"
+    },
+    {
+        "id": 2,
+        "date": "15 August 2026",
+        "title": "AI Workshop",
+        "venue": "College Ground",
+        "category": "Workshop"
+    },
+    {
+        "id": 3,
+        "date": "25 August 2026",
+        "title": "Hackathon 2026",
+        "venue": "Computer Lab",
+        "category": "Competition"
+    },
+    {
+        "id": 4,
+        "date": "10 September 2026",
+        "title": "Sports Tournament",
+        "venue": "Sports Complex",
+        "category": "Sports"
+    },
+    {
+        "id": 5,
+        "date": "20 September 2026",
+        "title": "Annual Cultural Fest",
+        "venue": "Open Auditorium",
+        "category": "Cultural"
+    },
+    {
+        "id": 6,
+        "date": "05 July 2026",
+        "title": "Career Guidance Seminar",
+        "venue": "Conference Hall",
+        "category": "Seminar"
+    },
+    {
+        "id": 7,
+        "date": "12 July 2026",
+        "title": "Tree Plantation Drive",
+        "venue": "College Campus",
+        "category": "Social"
+    },
+    {
+        "id": 8,
+        "date": "18 July 2026",
+        "title": "Blood Donation Camp",
+        "venue": "Medical Center",
+        "category": "Health"
+    },
+    {
+        "id": 9,
+        "date": "25 July 2026",
+        "title": "Coding Competition",
+        "venue": "Computer Lab",
+        "category": "Competition"
+    },
+    {
+        "id": 10,
+        "date": "30 July 2026",
+        "title": "Library Orientation Program",
+        "venue": "Central Library",
+        "category": "Academic"
+    },
+    {
+        "id": 11,
+        "date": "02 October 2026",
+        "title": "Entrepreneurship Workshop",
+        "venue": "Innovation Hub",
+        "category": "Workshop"
+    },
+    {
+        "id": 12,
+        "date": "10 October 2026",
+        "title": "Robotics Exhibition",
+        "venue": "Engokk sineering Block",
+        "category": "Exhibition"
+    },
+    {
+        "id": 13,
+        "date": "18 October 2026",
+        "title": "Photography Contest",
+        "venue": "Campus Lawn",
+        "category": "Competition"
+    },
+    {
+        "id": 14,
+        "date": "28 October 2026",
+        "title": "Alumni Meet",
+        "venue": "Main Auditorium",
+        "category": "Networking"
+    },
+    {
+        "id": 15,
+        "date": "05 November 2026",
+        "title": "Diwali Celebration",
+        "venue": "Open Ground",
+        "category": "Cultural"
+    }
+]

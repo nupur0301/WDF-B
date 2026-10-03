@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',Arial,sans-serif;
+}
+body{
+    background:#EAF6FF;
+    color:#333;
+}
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    text-align:center;
+}
+header{
+    background:#003366;
+    color:white;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+.logo{
+    width:50px;
+    height:50px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+header h1{
+    font-size:34px;
+    margin:8px 0;
+}
+header h3{
+    font-size:20px;
+    font-weight:normal;
+}
+nav{
+    background:#99CCFF;
+    padding:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+nav a{
+    text-decoration:none;
+    color:#003366;
+    margin:0 18px;
+    font-weight:bold;
+    transition:.3s;
+}
+nav a:hover,nav a.active{
+    color:#0059B3;
+}
+main{
+    width:90%;
+    max-width:1100px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+h2{
+    color:#003366;
+    margin-bottom:15px;
+}
+p{
+    line-height:1.7;
+}
+.faq-section{
+    margin-top:20px;
+}
+.faq-card{
+    background:#ffffff;
+    padding:20px;
+    margin:18px 0;
+    border-left:5px solid #003366;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.12);
+   transition:.3s;
+}
+.faq-card:hover{
+    transform:translateX(8px);
+    background:#F4F9FF;
+}
+.faq-card h3{
+    color:#003366;
+    margin-bottom:10px;
+    font-size:18px;
+}
+.faq-card p{
+    color:#555;
+    line-height:1.6;
+}
+.quick-links{
+    margin-top:40px;
+}
+.quick-links ul{
+    list-style:none;
+    padding:0;
+}
+.quick-links li{
+    background:white;
+    margin:10px 0;
+    padding:12px 18px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+    transition:.3s;
+}
+.quick-links li:hover{
+    background:#003366;
+}
+.quick-links li:hover a{
+    color:white;
+}
+.quick-links a{
+    text-decoration:none;
+    color:#003366;
+    font-weight:bold;
+}
+.help-box{
+    margin-top:40px;
+    background:#EAF4FF;
+    border-left:5px solid #2563EB;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+}
+.help-box h2{
+    margin-bottom:12px;
+}
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+footer p{
+    margin:5px;
+}

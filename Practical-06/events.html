@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub | Events</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+<header>
+    <img src="banner.png" alt="StudentHub Logo" width="120">
+        <h1>StudentHub Portal</h1>
+        <h3>College Events</h3>
+</header>
+<nav>
+
+<div class="container">
+<div class="menu-icon" onclick="toggleMenu()">
+☰
+</div>
+<div class="nav-links" id="navLinks">
+<a href="dashboard.html">Dashboard</a>
+<a href="attendance.html">Attendance</a>
+<a href="timetable.html">Timetable</a>
+<a href="perfomance.html">Perfomance</a>
+<a href="events.html">Events</a>
+<a href="faq.html">FAQ</a>
+</div>
+</div>
+</nav>
+<main>
+    <div class="notification" id="notification">
+    <span>
+        📢 <strong>Announcement:</strong> Hackathon 2026 Registration closes on
+        <b>30 September 2026</b>.
+    </span>
+
+    <button id="closeBanner">&times;</button>
+</div>
+    <section class="events-header">
+        <h2>Upcoming College Events</h2>
+        <p>Stay updated with all upcoming college activities and workshops.</p>
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search events...">
+</div>
+<div class="sort-box">
+    <label for="sortOrder"><strong>Sort by Date:</strong></label>
+    <select id="sortOrder">
+        <option value="default">Default</option>
+        <option value="asc">Oldest First</option>
+        <option value="desc">Newest First</option>
+    </select>
+</div>
+<div class="filter-box">
+    <label for="venueFilter"><strong>Filter by Venue:</strong></label>
+
+    <select id="venueFilter">
+        <option value="All">All Venues</option>
+        <option value="Seminar Hall">Seminar Hall</option>
+        <option value="College Ground">College Ground</option>
+        <option value="Computer Lab">Computer Lab</option>
+        <option value="Sports Complex">Sports Complex</option>
+        <option value="Open Auditorium">Open Auditorium</option>
+    </select>
+</div>
+</section>
+    <section>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Venue</th>
+                </tr>
+            <tbody id="eventTable">
+        </tbody>    
+            </table>
+        </div>
+    </section>
+    <div class="pagination">
+    <button id="prevBtn">Previous</button>
+    <span id="pageInfo">Page 1</span>
+    <button id="nextBtn">Next</button>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <p><b>StudentHub Portal</b></p>
+        <p>Charotar University of Science and Technology</p>
+        <p>Email: info@charusat.edu</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Address : Changa, Anand, Gujarat</p>
+        <p>&copy; 2026 StudentHub Portal | All Rights Reserved.</p>
+    </div>
+</footer>
+<script src="theme.js"></script>
+<script src="menu.js"></script>
+<script src="events.js"></script>
+</body>
+</html>
