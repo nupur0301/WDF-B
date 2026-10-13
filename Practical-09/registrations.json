@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Nupur Padaria",
+        "email": "abc123@gmail.com",
+        "mobile": "9874561230",
+        "password": "Nupur2006@",
+        "course": "B.Tech IT",
+        "year": "Second Year",
+        "gender": "Female"
+    },
+    {
+        "name": "Riya Patel",
+        "email": "abc@gmail.com",
+        "mobile": "9625300326",
+        "password": "ABC1234@",
+        "course": "B.Tech AIML",
+        "year": "Second Year",
+        "gender": "Female"
+    }
+]
