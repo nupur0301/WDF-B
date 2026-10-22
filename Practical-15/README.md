@@ -286,21 +286,6 @@ http://localhost/projectfinal/
 
 ---
 
-# 📸 Screenshots
-
-You may add screenshots of:
-
-- Home Page
-- Student Login
-- Admin Login
-- Student Dashboard
-- Admin Dashboard
-- Student Management
-- Event Management
-- Event Registration
-- My Registrations
-
----
 
 # 👩‍💻 Developer
 
